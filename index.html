@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACS - by JV</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="Images\icons8-assassins-creed-32.ico">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/db576d89aa.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="CSS\styles.css">
+
+    <!-- Google Fonts (Montserrat & Ubuntu) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400&    display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section id="header" class="section-dark">
+
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img class="header-logo" src="Images\ACS-logo-text.png" alt="ACS-Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsed-navbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsed-navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#explore">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#characters">Characters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#media">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cta">Download</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="header-text">London, 1868. The Industrial Revolution unleashes an incredible age of invention, transforming the lives of millions     with technologies once thought impossible. Opportunities created during this period have people rushing to London to    engage in this new world, a world no longer controlled by kings, emperors, politicians, or religion, but by a new  common denominator: money.</p>
+                    <button type="button" class="btn btn-lg btn-outline-light buy-now-btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                </div>
+                <div class="col-md-6">
+                    <img class="header-product-img" src="Images\ACS-product-img-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="explore" class="section-light container-fluid">
+        <div class="explore-content row">
+            <div class="col-md-6">
+                <img class="explore-img" src="Images\ACS-media-SS-3.jpg" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2 class="explore-heading">The First Assassin at the Birth of the Modern Age</h2>
+                <p class="explore-description">As the brash, rebellious Jacob Frye, put up your dukes and take enemies on with lightning-fast multikills and    countermoves. Use improved stealth tactics to elude your enemies and unleash your arsenal of weapons, including the    kukri knife, brass knuckles, and sword cane. Utilize new technology like the rope launcher to scale buildings in   seconds and take your enemies by surprise.</p>
+            </div>
+        </div>
+
+        <div class="explore-content row">
+            <div class="col-md-6">
+                <img class="explore-img" src="Images\ACS-media-SS-2.jpg" alt="">                
+            </div>
+            <div class="col-md-6">
+                <h2 class="explore-heading">Traverse the Fast-paced World of Industrial London</h2>
+                <p class="explore-description">From Buckingham Palace to Big Ben, fight and triumph across the massive open world of Victorian London. Parkour  across moving vehicles to track down enemies or escape after a daring raid, hijack carriages to engage in a  no-holds-barred street race, or blaze a trail of destruction aboard steamboats along the River Thames.</p>
+            </div>
+        </div>
+
+        <div class="explore-content row">
+            <div class="col-md-6">
+                <img class="explore-img" src="Images\ACS-media-SS-4.jpg" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2 class="explore-heading">Take Over the London Underworld</h2>
+                <p class="explore-description">With Jacob as the leader, gamers can establish Great Britain’s fiercest gang, the only force that can challenge  the elite and defeat rival gangs to bring freedom to the oppressed masses. Enemy strongholds can be infiltrated by   using an arsenal of weapons to dominate London’s underworld. From robbing trains to rescuing child laborers,  players will stop at nothing to bring justice to London’s lawless streets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="characters" class="section-dark">
+        <div id="carouselCharacters" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselCharacters" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselCharacters" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item character-details active" data-bs-interval="10000">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img class="jacob-img" src="Images\Jacob-frye.png" alt="Jacob-Frye">
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>Jacob Frye</h2>
+                            <p>Sir Jacob Frye (born 1847) was a Master Assassin of the British Brotherhood, active in London during the Victorian era, and the younger twin brother of Evie Frye. He later became a member of Queen Victoria's Order of the Sacred Garter, and the grandfather of Lydia Frye.
+
+                            Born in Crawley, where they were raised as Assassins from birth, Jacob and his sister traveled to London to take the city back from the Templars after their father died of natural causes.
+                
+                            Alongside Evie, Jacob led the Rooks, a criminal syndicate opposing the Templar-backed Blighters. While his sister would primarily pursue the Shroud of Eden, Jacob assassinated various prominent Templars to destroy Grand Master Crawford Starrick's influence within the city.</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item character-details" data-bs-interval="10000">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img class="evie-img" src="Images\Evie-Frye.png" alt="Evie-Frye">
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>Evie Frye</h2>
+                            <p>Dame Evie Frye (born 1847) was a Master Assassin of the British Brotherhood, active in London during the Victorian era, and the elder twin sister of Jacob Frye. She was also a member of the Order of the Sacred Garter, and the grand-aunt of Lydia Frye.
+    
+                            Originating from Crawley, Evie and her brother traveled to London to liberate London from the Templars' control and help the poverty-stricken masses, following the death of their father by natural causes.
+                    
+                            While Jacob focused on eliminating targets instrumental to Grand Master Crawford Starrick's operations, Evie pursued the Shroud of Eden, a First Civilization artifact hidden within the city. In doing so, she regularly came into conflict with Lucy Thorne, Starrick's second-in-command and an expert on the Pieces of Eden.</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCharacters" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCharacters" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="media" class="section-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="Images\ACS-Evie-World.jpg" target="_blank"><img class="media-img" src="Images\ACS-Evie-World.jpg" alt="ACS-Evie-World"></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="Images\ACS-Jacob-World.jpg" target="_blank"><img class="media-img" src="Images\ACS-Jacob-World.jpg" alt="ACS-Jacob-World"></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="Images\ACS-Evie-World-2.jpg" target="_blank"><img class="media-img" src="Images\ACS-Evie-World-2.jpg" alt="ACS-Evie-World-2"></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="Images\ACS-World.jpg" target="_blank"><img class="media-img" src="Images\ACS-World.jpg" alt="ACS-World"></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="Images\ACS-World-2.jpg" target="_blank"><img class="media-img" src="Images\ACS-World-2.jpg" alt="ACS-World-2"></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="Images\ACS-World-3.jpg" target="_blank"><img class="media-img" src="Images\ACS-World-3.jpg" alt="ACS-World-3"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="section-dark">
+        <h2>Assassin's Creed Syndicate</h2>
+        <p>London is entering the dawn of the modern age, and Assassins Jacob and Evie Frye set out to take control of the city and bring a better life to its people.</p>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="card border-light text-center product-details">
+                    <div class="card-body">
+                      <h5 class="card-title">Release Date:</h5>
+                      <p class="card-text">October 23, 2015</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card border-light text-center product-details">
+                    <div class="card-body">
+                      <h5 class="card-title">Genre:</h5>
+                      <p class="card-text">Action / Adventure</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card border-light text-center product-details">
+                    <div class="card-body">
+                      <h5 class="card-title">Developer:</h5>
+                      <p class="card-text">Ubisoft Quebec</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card border-light text-center product-details">
+                    <div class="card-body">
+                      <h5 class="card-title">Available On:</h5>
+                      <p class="card-text">PC / Xbox One / PlayStation 4 / Amazon Luna</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-lg btn-outline-light buy-now-btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+    </section>
+
+    <section id="copyright" class="section-light">
+        <div class="social-media-links">
+            <a href=""><i class="fa-brands fa-twitter social-icon"></i></a>
+            <a href=""><i class="fa-brands fa-facebook social-icon"></i></a>
+            <a href=""><i class="fa-brands fa-instagram social-icon"></i></a>
+            <a href=""><i class="fa-brands fa-youtube social-icon"></i></a>
+        </div>
+
+        <div class="rating-copyright">
+            <img class="esrb-rating" src="Images\ESRB-Rating.avif" alt="ESRB-Rating">
+            <p>©️Assassin's Creed Syndicate</p>
+        </div>
+    </section>
+</body>
+</html>
